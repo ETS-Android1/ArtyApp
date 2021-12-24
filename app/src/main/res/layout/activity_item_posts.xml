@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".posts.activities.ItemPostsActivity"
+    android:background="@color/background_light">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/colorAccent"
+            android:gravity="left"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/appname"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nav_itemsPost"
+                android:padding="5dp"/>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/add_postimg"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/default_image" />
+
+        <Spinner
+            android:id="@+id/add_post_title"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:entries="@array/category"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Title"
+            app:boxBackgroundMode="none"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/EditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/description_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Description"
+            app:boxBackgroundMode="none"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/EditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/itemDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/price_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Price(Ksh)"
+            app:boxBackgroundMode="none"
+            android:layout_marginBottom="5dp"
+            android:theme="@style/EditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/itemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnPost"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_background"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:text="Add Item"
+            android:textAllCaps="false"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

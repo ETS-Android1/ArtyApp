@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Arty</string>
+
+    <string name="register_success_popup">Registered successfully.\nVerification email has been sent.\nPlease verify email.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Nav -->
+    <string name="nav_dash">Dashboard</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_about">About</string>
+    <string name="nav_topBar">TopBar</string>
+    <string name="nav_itemsPost">Post Items</string>
+
+    <!-- Home Activity -->
+    <string name="tab1">All</string>
+    <string name="tab2">Paintings</string>
+    <string name="tab3">Crafts</string>
+    <string name="tab4">Jewellery</string>
+    <string name="tab5">Crochet</string>
+
+    <!-- Profile Fragment -->
+    <string name="name_explanation">This is not your username or pin. This name will be visible in all your transactions.</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">PhoneNumber</string>
+    <string name="email">Email</string>
+
+    <!-- Help Fragment -->
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_desc">Questions? Need help?</string>
+    <string name="terms_policy">Terms and Privacy Policy</string>
+    <string name="app_info">App info</string>
+
+    <!-- About Fragment -->
+    <string name="version">Arty Version 1.0.0 Release</string>
+    <string name="company"> 2019-2021 MaRich Tech</string>
+    <string name="license">LICENSES</string>
+
+    <!-- Footer -->
+    <string name="by">by</string>
+    <string name="dev_info">MaRich Tech</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="comment_field_hint">Your Comment here...</string>
+    <string name="comment_label_text">Comments:</string>
+
+    <string name="action_share_text">Share</string>
+
+    <string name="noconnection">Kindly connect to a WIFI network or enable Mobile Data</string>
+    <string name="orderdetails">Your Order has been Placed Succesfully. \n Here is your Unique Order Id !</string>
+
+
+</resources>

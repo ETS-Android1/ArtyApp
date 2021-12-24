@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marichtech.artyy">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Arty">
+        <activity
+            android:name=".activity.ui.ArtistSingleHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.activities.ItemDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ui.ArtistsOrdersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ui.SingleHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ui.MyOrdersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ui.CustomerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ui.WishListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cart.OrderPlacedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cart.OrderDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.notification.NotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cart.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.activities.ImagePreviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.activities.CommentsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.activities.ItemPostDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".posts.activities.PostArtActivity"
+            android:exported="true" />
+        <activity android:name=".posts.activities.ItemPostsActivity" />
+        <activity android:name=".posts.activities.TopBarActivity" />
+        <activity android:name=".activity.ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ui.HelpActivity" />
+        <activity android:name=".activity.ui.AboutActivity" />
+        <activity android:name=".activity.ui.ProfileActivity" />
+        <activity android:name=".activity.signin.RegisterActivity" />
+        <activity android:name=".activity.signin.LoginActivity" />
+        <activity android:name=".activity.ui.HomeActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

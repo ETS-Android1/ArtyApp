@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="radio_buttons">
+		<item>PayPal</item>
+		<item>Paytm</item>
+		<item>COD</item>
+	</string-array>
+
+	<string-array name="user_activityScreenTitles">
+		<item>Dashboard</item>
+		<item>Collection</item>
+		<item>Profile</item>
+		<item>Orders</item>
+		<item>Cart</item>
+		<item>Wish List</item>
+		<item>Help</item>
+		<item />
+		<item>Logout</item>
+	</string-array>
+
+	<string-array name="user_activityScreenIcons">
+		<item>@drawable/ic_dashboard_24</item>
+		<item>@drawable/ic_baseline_wallpaper_24</item>
+		<item>@drawable/ic_person_24</item>
+		<item>@drawable/ic_baseline_shopping_basket_24</item>
+		<item>@drawable/ic_baseline_shopping_cart_24</item>
+		<item>@drawable/ic_baseline_favorite_border_24</item>
+		<item>@drawable/ic_help_24</item>
+		<item>0</item>
+		<item>@drawable/ic_logout_24</item>
+	</string-array>
+
+    <string-array name="ld_activityScreenTitles">
+	<item>Dashboard</item>
+	<item>Profile</item>
+	<item>Help</item>
+	<item />
+	<item>Logout</item>
+    </string-array>
+
+
+
+     <string-array name="ld_activityScreenIcons">
+		 <item>@drawable/ic_dashboard_24</item>
+		 <item>@drawable/ic_person_24</item>
+		 <item>@drawable/ic_help_24</item>
+		 <item>0</item>
+		 <item>@drawable/ic_logout_24</item>
+    </string-array>
+
+
+	<string-array name="category">
+		<item>--Select Category--</item>
+		<item>Paintings</item>
+		<item>Crafts</item>
+		<item>Jewellery</item>
+		<item>Crochet</item>
+	</string-array>
+
+
+</resources>

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "413447432544",
+    "firebase_url": "https://testing-fdf4c.firebaseio.com",
+    "project_id": "testing-fdf4c",
+    "storage_bucket": "testing-fdf4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413447432544:android:8c8e5d0302e99240965605",
+        "android_client_info": {
+          "package_name": "com.beingdev.magicprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413447432544-lsqd7jnm321okqoptgicifdomkveqcvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beingdev.magicprint",
+            "certificate_hash": "3bb446071b570721fb1ad19a31500ff18c323acb"
+          }
+        },
+        {
+          "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6ap3YTA8xdv7LGImN0sp9ELEC8_qWe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413447432544:android:940120e91188b8c6965605",
+        "android_client_info": {
+          "package_name": "com.marichtech.arty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6ap3YTA8xdv7LGImN0sp9ELEC8_qWe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413447432544:android:18ecf4b6537fc923965605",
+        "android_client_info": {
+          "package_name": "com.marichtech.artyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413447432544-h9g80shd47e6d06csfg3uh2ucnjcqf1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marichtech.artyy",
+            "certificate_hash": "ba3720b4163f37dc977d823160eb1df542b62d92"
+          }
+        },
+        {
+          "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6ap3YTA8xdv7LGImN0sp9ELEC8_qWe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413447432544-d6amqeptal0c9ksb9lcqaqpri5gksd4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

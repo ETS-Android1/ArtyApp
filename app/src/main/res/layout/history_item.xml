@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_medium">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Order Details"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size_xmedium"
+                android:textStyle="bold"
+                android:layout_weight="9"/>
+
+            <ImageView
+                android:padding="5dp"
+                android:id="@+id/deletecard"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:src="@drawable/ic_clear_black_18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Id : "
+                style="@style/fonts"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/order_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/headingfonts"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="10"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total No. of Items : "
+                style="@style/fonts"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/no_of_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/headingfonts"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Amount : "
+                style="@style/fonts"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/headingfonts"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="15000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estimated Delivery Date : "
+                style="@style/fonts"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/delivery_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/headingfonts"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="28/12/2017"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivered : "
+                style="@style/fonts"
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/delivery_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/headingfonts"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="28/12/2017"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
